@@ -23,14 +23,13 @@
 
     .caixa-mae {
         flex-direction: column;
-        padding: 10px;
+        padding: 15px;
         justify-content: flex-start;
     }
 
     .mario-luigi {
         height: auto;
         width: 80vw;
-        margin-top: 15%;
     }
 
     .content {
@@ -47,7 +46,20 @@
     }
 
     .form-contato {
-        left: -58%;
+        left: -100%;
     }
 
+    header a:hover {
+        color: red;
+        font-size: 17px;
+        transition: 0.5s ease-in-out;
+    }
+
+    button:hover {
+        opacity: 60%;
+    }
+
+    button:active {
+        opacity: 30%;
+    }
 }

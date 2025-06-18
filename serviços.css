@@ -199,5 +199,18 @@ video {
         margin-top: 40%;
     }
 
+    header a:hover {
+        color: red;
+        font-size: 17px;
+        transition: 0.5s ease-in-out;
+    }
+
+    button:hover {
+        opacity: 60%;
+    }
+
+    button:active {
+        opacity: 30%;
+    }
 
 }
