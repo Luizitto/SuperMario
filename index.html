@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="./src/img/logo-header.png">
+        <nav>
+            <a href="#">Home</a>
+            <a href="serviços.html">Nosso Serviços</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+    </header>
+
+
+    <div class="caixa-mae">
+        <div class="content">
+            <img src="./src/img/logo.png" alt="logo do mario" class="logo">
+            <p>Encanadores Mario & Luigi - Resolvemos seus problemas com Estilo!</p>
+            <p>Você se encontra em uma situação de emergência com encanamento? Vazamantos inesperados, canos entupidos
+                ou
+                torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos
+                a
+                vocês
+                os encanadores mais famosos do Reino dos Cogumelos, Mario e Luigi!.</p>
+
+            <button class="contato" onclick="mostrarForm()">Entre em Contato</button>
+        </div>
+
+        <div class="content-img-equipe">
+            <img src="./src/img/mario.png" class="mario-luigi">
+        </div>
+    </div>
+
+    <div class="caixa-video-fundo">
+        <video src="./src/video/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a class="link-zap"
+        href="https://wa.me/5535999945330?text=Ola%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20queria%20fazer%20um%20or%C3%A7amento%20com%20voce!%20">
+        <img src="./src/img/whatsapp.png">
+    </a>
+
+    <form class="form-contato" action="https://formcarry.com/s/DmGOypw7nWU" method="POST" enctype="multipart/form-data">
+        <input placeholder="Digite seu nome" type="text" name="nome">
+        <input placeholder="Digite seu numero" type="tel" name="telefone">
+        <input placeholder="Seu melhor email" type="email" name="email">
+        <textarea placeholder="Em que podemos ajudar?" name="mensagem"></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <script src="./script.js"></script>
+</body>
