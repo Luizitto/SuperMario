@@ -28,8 +28,9 @@
     }
 
     .mario-luigi {
-        width: 400px;
         height: auto;
+        width: 80vw;
+        margin-top: 15%;
     }
 
     .content {
